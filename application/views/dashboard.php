@@ -9,7 +9,7 @@
          <div class="col-md-6">
            <div class="row">
             <div class="col-md-12">
-                <h3>Login Successful <?=$this->session->userdata('mobile')?>  <?=$this->session->userdata('email')?></h3>
+                <h3>Thank You Login Successful <?=$this->session->userdata('mobile')?>  <?=$this->session->userdata('email')?></h3>
                 <a href="<?= base_url();?>auth/logout">Logout</a>                                               
                </div>
              </div>
