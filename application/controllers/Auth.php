@@ -34,9 +34,9 @@ class Auth extends CI_Controller {
                  'name' => $check->name
                 ); 
             $this->session->set_userdata($user);
-				echo 1;
+		echo 1;
             }else {
-			echo '<div class="alert alert-danger"> Wrong Email or Password.</div>';
+			echo '<div class="alert alert-danger"> Wrong Email Id or Password.</div>';
 				}
 		} else {
 			echo '<div class="alert alert-danger"> Email & Password Is Empty.</div>';
@@ -44,7 +44,6 @@ class Auth extends CI_Controller {
     }
     public function post_register()
     {
- 
         $this->form_validation->set_rules('name', 'Your Name', 'trim|required|min_length[5]|max_length[12]');
         $this->form_validation->set_rules('mobile', 'Mobile No', 'required|max_length[10]');
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
