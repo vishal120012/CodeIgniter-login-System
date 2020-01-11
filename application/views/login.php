@@ -9,8 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <title>Sign in</title>
 </head>
-<style type="text/css">
-     
+<style type="text/css">  
     body {
         background-color: #F3EBF6;
         font-family: 'Ubuntu', sans-serif;
