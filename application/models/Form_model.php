@@ -16,7 +16,6 @@ class Form_model extends CI_Model {
     }
     public function insert_user($data)
     {
- 
         $insert = $this->db->insert('users', $data);
         if ($insert) {
            return $this->db->insert_id();
