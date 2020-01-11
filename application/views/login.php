@@ -1,5 +1,4 @@
 <html>
- 
 <head>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -120,8 +119,7 @@
     @media (max-width: 600px) {
         .main {
             border-radius: 0px;
-        }
-         
+        }        
 </style>
 <body>
   <div class="main">
@@ -133,10 +131,8 @@
       <button type="submit" align="center" id="submit" class="submit">Sign in</button>    
      </form>     
 <a class="submit" align="center" href="<?= base_url('auth/post_register'); ?>" > Register </a>	 
-    </div>
-      
+    </div> 
 </body>
- 
 </html>
 <script>
         $("#submit").click(function() {
