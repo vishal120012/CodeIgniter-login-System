@@ -124,7 +124,7 @@
 </style>
 <body>
   <div class="main">
-    <p class="sign" align="center">Sign Up</p>
+    <p class="sign" align="center">Sign Up Registration Form</p>
     <form action="<?php echo base_url('auth/post_register') ?>" method="post" accept-charset="utf-8">
       <input class="un " type="text" align="center" name="name" placeholder=" name">
       <?php echo form_error('name'); ?>   
